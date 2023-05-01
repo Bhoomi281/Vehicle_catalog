@@ -80,6 +80,7 @@ const Vehicle = () => {
             <input
               type="text"
               id="search"
+              placeholder="search by vehicle name.."
               onChange={(e) => setname(e.target.value)}
             />
           </span>

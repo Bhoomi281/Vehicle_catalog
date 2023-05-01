@@ -7,11 +7,13 @@
 .header {
   height: 10%;
   background-color: transparent;
-  background: black;
+  background: #490e88;;
   text-align: center;
+  border:2px solid black;
+ 
 }
 .header h1 {
-  color: white;
+  color: rgb(235, 206, 235);
 }
 .section {
   height: auto;
@@ -23,15 +25,16 @@
 }
 table {
   margin: 10px auto 0;
-  border: 2px solid grey;
+  border: 5px solid rgb(37, 12, 203);
   cursor: pointer;
+  border-radius: 2px;
 }
 tr {
-  border: 2px solid grey;
+  border: 5px solid rgb(37, 12, 203);
 }
 td,
 th {
-  border: 2px solid grey;
+  border: 1px solid rgb(37, 12, 203);
   text-align: center;
   background: silver;
   padding: 2px;
